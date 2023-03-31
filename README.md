@@ -1,6 +1,6 @@
 
 ## Lógica de programação em linguagem C ##
-📖 Acervo de arquivos .txt/.c/.c++/c# produzidos em aula (Lógica de programação em linguagem C).
+📖 Acervo de arquivos .txt/.c produzidos em aula (Lógica de programação em linguagem C).
 
 ##
 
