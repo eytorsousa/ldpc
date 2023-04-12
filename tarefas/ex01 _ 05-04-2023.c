@@ -2,28 +2,22 @@
 
 int main(){
     
-    int n = 0;
+    float n = 0;
     
     printf("\tOlá, vamos verificar se seu número é positivo, negativo ou zero!");
     
     printf("\nInsira seu numéro: ");
-    scanf("%d", &n);
-    
-    if (n == 0){
-        
-        printf("Seu número é 0.");
-    }
+    scanf("%f", &n);
     
     if (n > 0){
-        
-        printf("Seu número é positivo.");
-    }
-    
-    if (n < 0){
-        
-        printf("Seu número é negativo.");
-    }
+            printf("Seu número é positivo.");
+        }
+    else
+        if (n < 0){
+            printf("Seu número é negativo.");
+        }
+    else
+        printf("Seu número é zero!");
     
     return 0;
-    
 }
