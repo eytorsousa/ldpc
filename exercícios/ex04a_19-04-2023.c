@@ -6,10 +6,10 @@ int main(){
     // exercício 4a //
     
     int n1 = 0;
-    int n2 =0;
+    int n2 = 0;
     int n3 = 0;
     
-    printf("\t\nExercício 4");
+    printf("\n\tExercício 4");
     printf("\t\nInsira dois valores a seguir para que possamos trocar seus valores:");
     
     printf("\nValor 1: ");
@@ -30,6 +30,6 @@ int main(){
     printf("\nValor 1: %d", n1);
     printf("\nValor 2: %d", n2);
     
-    printf("\t\nFim do programa");
+    printf("\n\tFim do programa");
     return 0;
 }
