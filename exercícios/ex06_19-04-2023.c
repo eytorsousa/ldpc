@@ -21,12 +21,15 @@ int main(){
         printf("\nA diferença entre eles é %d", (n1 - n2));
     }
     
-    else{
+    else
         if(n2 > n1){
             printf("%d é o maior número.", n2);
             printf("\nA diferença entre eles é %d.", (n2 - n1));
         }
-    }
+    
+    else
+        printf("Os números são iguais.");
+    
     
     printf("\n\tFim do programa");
     return 0;
