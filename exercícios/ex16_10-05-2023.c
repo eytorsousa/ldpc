@@ -4,11 +4,11 @@ int main(){
     //Exercício calculadora básica
     
     float a, b, r;
-    int c;
+    int c = 5;
     char x = 'S';
     
     while(x == 'S' || x == 's'){    
-        do{
+        while(c == 5){
             printf("\033[2J");
             printf("\033[1;1H");
             printf("\tCalculadora básica\n");
@@ -21,12 +21,12 @@ int main(){
             printf("\n---------------");
             printf("\nOperação: ");
             scanf("%d", &c);
-        }while(c == 5);
-        
-        if(c < 1 || c > 5){
-            while(c < 1 || c > 5){
-                printf("Operação inválida! Digite novamente: ");
-                scanf("%d", &c);
+            
+            if(c < 1 || c > 5){
+                while(c < 1 || c > 5){
+                    printf("Operação inválida! Digite novamente: ");
+                    scanf("%d", &c);
+                }
             }
         }
         
