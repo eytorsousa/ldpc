@@ -8,6 +8,7 @@ int main(){
     char x = 'S';
     
     while(x == 'S' || x == 's'){    
+        c = 5;
         while(c == 5){
             printf("\033[2J");
             printf("\033[1;1H");
@@ -65,6 +66,6 @@ int main(){
         if(x == 'N' || x == 'n'){
             printf("\n\tFIM DO PROGRAMA");
         }
-    }    
+    }
     return 0;
 }
