@@ -11,13 +11,12 @@ int main(){
     }
 
     printf("\n");
-    
-    int y[10];
+   
     int a = 0;
     int b = 1;
     
     while(b < 11){
-        y[a] = b;
+        x[a] = b;
         printf("%d ", x[a]);
         a++;
         b++;
